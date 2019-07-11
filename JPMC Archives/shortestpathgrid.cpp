@@ -40,8 +40,9 @@ void dijkstra(vector<int> graph[],bool visited[],int n,int m,int count)
 	        }
         }
     }
-    for(int i = 1 ; i<=count ; i++)
-    		cout<<dist[i]<<" ";
+    // for(int i = 1 ; i<=count ; i++)
+    // 		cout<<dist[i]<<" ";
+    cout<<dist[count]<<endl;
 }
 
 int main()
@@ -94,15 +95,15 @@ int main()
 	}
 
 	/* Print graph */
-	for(int i = 1 ; i <= n*m ; i++)
-	{
-		cout<<"Node "<<i<<": ";
-		for(int j = 0 ; j < graph[i].size() ; j++)
-		{
-			cout<<node_nums[graph[i][j]]<<" ";
-		}
-		cout<<endl;
-	}
+	// for(int i = 1 ; i <= n*m ; i++)
+	// {
+	// 	cout<<"Node "<<i<<": ";
+	// 	for(int j = 0 ; j < graph[i].size() ; j++)
+	// 	{
+	// 		cout<<node_nums[graph[i][j]]<<" ";
+	// 	}
+	// 	cout<<endl;
+	// }
 
 
 	dijkstra(graph,visited,n,m,count);
