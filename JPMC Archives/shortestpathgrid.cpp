@@ -1,5 +1,16 @@
 /* Given a grid of integers , find the shortest
 sum path from 1,1 to n,m 
+
+Test Case : n = m = 5
+			31, 100, 65, 12, 18, 
+        	10, 13, 47, 157, 6, 
+        	100, 113, 174, 11, 33, 
+        	88, 124, 41, 20, 140, 
+        	99, 32, 111, 41, 20
+        	 
+			Output : 327 
+
+Link : https://www.geeksforgeeks.org/minimum-cost-path-left-right-bottom-moves-allowed/
 */
 
 #include<bits/stdc++.h>

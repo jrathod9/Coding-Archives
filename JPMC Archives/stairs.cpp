@@ -7,7 +7,10 @@ required to take us to the end of the array .*/
 				arr = 1 4 3 2 6 7
 	Output 	:	3 ( 1 --> 3 --> 8/9 --> 9)
 				2 (1 --> 4 --> 7)
-(If value is 0 , no jump can be done) */
+(If value is 0 , no jump can be done)
+
+Link : https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+ */
 
 #include<bits/stdc++.h>
 using namespace std;

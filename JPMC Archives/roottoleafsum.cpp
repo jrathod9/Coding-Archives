@@ -16,9 +16,10 @@
   6->3->5->4                6000+300+50+4=6354
   6->5>4                    600+50+4=654   
   Answer = 632 + 6357 + 6354 + 654 = 13997
- */
-/* Required to complete the function treePathsSum()*/
-
+ 
+ Required to complete the function treePathsSum()
+ 
+ Link : https://www.geeksforgeeks.org/sum-numbers-formed-root-leaf-paths/ */
 
 long long res = 0;
 void solve(Node *root, int data)

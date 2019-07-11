@@ -12,7 +12,10 @@ in given order itself */
 	9 - WXYZ
 */
 /* Test Case : 	Input : 2 3
-				Output : AD AE AF BD BE BF CD CE CF*/
+				Output : AD AE AF BD BE BF CD CE CF
+
+Link : https://www.techiedelight.com/find-possible-combinations-words-formed-from-mobile-keypad/ 
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
