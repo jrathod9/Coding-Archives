@@ -2,11 +2,11 @@
  is a number. Find the sum of all the numbers which 
  are formed from root to leaf paths. */
 /*
-		6
+	    6
 	  /   \
-	 3	   5
-    / \		\
-   2   5   	 4
+	 3     5
+        / \     \
+       2   5   	 4
       / \
      7   4
   There are 4 leaves, hence 4 root to leaf paths:
